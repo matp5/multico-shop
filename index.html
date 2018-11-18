@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multico</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <main class='main__container'>
+        <header class='header container '>
+            <div class='container-fluid'>
+                <section class='header__info'>
+                    <div class='header__info--contact'>
+                        <ul class='header__list'>
+                            <li><a href="mailto:sklep@patrox.pl"><img src='images/email-icon.png'>sklep@patrox.pl</a></li>
+                            <li><a href="#"><img src='images/phone-icon.png'>17 785 23 66</a></li>
+                        </ul>
+                    </div>
+
+                    <div class='header__info--client'>
+                        <ul class='header__list'>
+                            <li><img src="images/lang-icon.png" alt=""><span class='header--link'>
+                                    <span>Język: <img class='lg-flag' src='images/poland-icon.png' alt=''><i class='fas fa-chevron-down'></i></span>
+                                </span></li>
+                            <li><span class='header--link'>
+                                    <span>Strefa klienta <img src='images/client-icon.png' alt=''><i class='fas fa-chevron-down'></i></span>
+                                </span></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class='search'>
+                    <a href="#" class='header__logo'><img src="images/multico-logo.png" alt=""></a>
+                    <div class='search__items'>
+                        <form>
+                            <input type="text" name='search' id='search' class='search-control' placeholder="Szukaj">
+                            <button><i class='fas fa-search'></i></button>
+                        </form>
+                        <ul class='list-group' id='result'></ul>
+                    </div>
+
+                    <div class='basket'>
+
+                        <div class='basket__items'>
+                            <span class='basket__price'>5000,00 zł</span>
+                            <img src="images/basket-icon.png" alt="">
+                            <div class='basket__count' id='counter'>
+                                <span class='count'>0</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <nav class='menu'>
+                    <ul class='menu__list'>
+                        <li class='col-3'><a href=""><i class='fa fa-bars'></i>wszystkie kategorie</a></li>
+                        <li class='col-1'><a href="">promocje</a></li>
+                        <li class='col-1'><a href="">rejestracja</a></li>
+                        <li class='col-1'><a href="">o nas</a></li>
+                        <li class='col-1'><a href="">dostawa</a></li>
+                        <li class='col-1'><a href="">regulamin</a></li>
+                        <li class='col-1'><a href="">kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <section class='menu__slider'>
+                    <div class='container-fluid'>
+                        <div class='row'>
+                            <div class='col-3'>
+                                <div class='menu__left'>
+                                    <ul>
+                                        <li><a href="#">Zdrowie i Uroda</a></li>
+                                        <li><a href="#">Zabawki</a></li>
+                                        <li><a href="#">Systemy ogniochronne</a></li>
+                                        <li><a href="#">Narzędzia</a></li>
+                                        <li><a href="#">Farby</a></li>
+                                        <li><a href="#">Artykuły sezonowe</a></li>
+                                        <li><a href="#">Inne</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class='col-9'>
+                                <div class="mySlides fade">
+                                    <h1>Zdrowie i uroda</h1>
+                                    <button>Zobacz</button>
+                                    <img src="images/slider1.png">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <h2>Akcesoria gsm</h2>
+                                    <button class='gsmBtn'>Zobacz</button>
+                                    <img src="images/slider2.png">
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                <div style="text-align:center; height: 100%;">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <section class='boxes container'>
+            <div class='boxes__grid'>
+                <div><a href="#">
+                        <img src="images/box1.png" alt="">
+                    </a></div>
+                <div><a>
+                        <img src="images/box2.png" alt="">
+                    </a></div>
+                <div><a>
+                        <img src="images/box3.png" alt="">
+                    </a></div>
+            </div>
+        </section>
+
+        <section class='boxes container'>
+            <div class='boxes__grid'>
+                <div class='features'>
+                    <img src="images/features1.png" alt="">
+                    <div class='boxes__text'>
+                        <h1>bezpieczne zakupy</h1>
+                        <span>certyfikat ssl</span>
+                    </div>
+                </div>
+                <div class='features'>
+                    <img src="images/features2.png" alt="">
+                    <div class='boxes__text'>
+                        <h1>30 dni na wymianę</h1>
+                        <span>i zwrot</span>
+                    </div>
+                </div>
+                <div class='features'>
+                    <img src="images/features3.png" alt="">
+                    <div class='boxes__text'>
+                        <h1>szybka wysyłka</h1>
+                        <span>w ciagu 24 godzin</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class='products container'>
+            <div class='products-grid'>
+                <div class="product__day">
+                    <h1>Produkt dnia</h1>
+                    <img src="images/product-day.png" alt="">
+                    <h2>Asus Zenbook Ux430Un I7 8550U 16Gb</h2>
+                    <h3>2 099,00 zł</h3>
+                    <span class='product__avail'>Dostępność</span>
+                    <div class='product__qty'><span>9</span> szt.</div>
+                    <h4>Do końca promocji pozostało:</h4>
+                    <div class='product__timer'><span>912</span> dni <span>05</span> : <span>20</span> : <span>04</span></div>
+                </div>
+
+                <h1 class='product__title'>Polecamy</h1>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-phone.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>LG G6 platynowy G390f Dark Silver</h2>
+                        <h3>1640,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-cup.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Gigantyczny Kubek Granat - Czarny</h2>
+                        <h3>820,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-watch.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Garmin Vivosmart HR+ PL czarno-szary regularny</h2>
+                        <h3>111,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-hypo.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Fisher Price, siostrzyczka Szczeniaczka</h2>
+                        <h3>160,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-game.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Domowe kasyno</h2>
+                        <h3>150,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-dragon.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Fisher Price, siostrzyczka Szczeniaczka</h2>
+                        <h3>190,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-drone.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>DJI Mavic Air Fly More Combo</h2>
+                        <h3>2250,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <h5>-10%</h5>
+                        <img src="images/product-copy.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>HP Ink Tank 319</h2>
+                        <h4>700,00 zł</h4>
+                        <h3 style='bottom: 20px;'>540,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+            </div>
+
+            <h1 class='news__title'>Nowości</h1>
+            <div id="owl-demo" class="owl-carousel ">
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <h5>-10%</h5>
+                        <img src="images/product-copy.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>HP Ink Tank 319</h2>
+                        <h4>700,00 zł</h4>
+                        <h3 style='bottom: 20px;'>540,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-drone.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>DJI Mavic Air Fly More Combo</h2>
+                        <h3>2250,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-dragon.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Fisher Price, siostrzyczka Szczeniaczka</h2>
+                        <h3>190,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-phone.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>LG G6 platynowy G390f Dark Silver</h2>
+                        <h3>1640,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+
+                </figure>
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-cup.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Gigantyczny Kubek Granat - Czarny</h2>
+                        <h3>820,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-watch.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Garmin Vivosmart HR+ PL czarno-szary regularny</h2>
+                        <h3>111,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-hypo.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Fisher Price, siostrzyczka Szczeniaczka</h2>
+                        <h3>160,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+
+                <figure class="product__item">
+                    <div class='product__img'>
+                        <h1>Polecamy</h1>
+                        <img src="images/product-game.png" alt="">
+                    </div>
+                    <div class='product__info'>
+                        <h2>Domowe kasyno</h2>
+                        <h3>150,00 zł</h3>
+                        <button class='addItem' onClick="btnClick()">Dodaj do koszyka</button>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <section class='newsletter container'>
+            <div class='newsletter__grid'>
+
+                <div class='newsletter__items'>
+                    <img src="images/newsletter.png" alt="">
+                    <h1>newsletter</h1>
+
+                </div>
+                <h2>bądź na biężąco i zapisz się do naszego newslettera</h2>
+                <div class='newsletter__input'>
+                    <input type="text"><button>zapisz</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class='footer container'>
+            <div class='footer__grid'>
+                <div>
+                    <h1>obsługa klienta</h1>
+                    <ul>
+                        <li><a href="#">Częste pytania</a></li>
+                        <li><a href="#">Płatności</a></li>
+                        <li><a href="#">Dostawa i odbiór</a></li>
+                        <li><a href="#">Zwrot i gwarancja</a></li>
+                        <li><a href="#">Regulamin</a></li>
+                        <li><a href="#">Ochrona prywatności</a></li>
+                        <li><a href="#">Skargi</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>informacje</h1>
+                    <ul>
+                        <li><a href="#">Wysyłka i płatności</a></li>
+                        <li><a href="#">Zwroty i reklamacje</a></li>
+                        <li><a href="#">Program lojalnościowy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>moje konto</h1>
+                    <ul>
+                        <li><a href="#">Twoje zamówienia</a></li>
+                        <li><a href="#">Ustawienia konta</a></li>
+                        <li><a href="#">Przechowalnia</a></li>
+                        <li><a href="#">Zasady i koszty wysyłki</a></li>
+                        <li><a href="#">Jak kupować </a></li>
+                        <li><a href="#">Usługi serwisowe</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/multico-logo.png" alt="">
+                    <h2>(14) 300 02 85</h2>
+                    <p>infolinia czynna od pn-pt <span style='display: block;'>
+                            w godz. 8:00-17:00
+                        </span> </p>
+                    <p>ul. Adres 23a, 43-100 Miasto</p>
+                    <a href="mailto:sklep@multico.pl">sklep@multico.pl</a>
+                </div>
+            </div>
+        </footer>
+
+        <section class='rights container'>
+            <div class='container-fluid'>
+                <div class='row'>
+                    <div class='col-6'>
+                        <h1>Wszelkie prawa zastrzeżone, <span>www.multico.pl</span></h1>
+                    </div>
+
+                    <div class='col-4' style='float: right'>
+                        <h1>Oprogramowanie sklepów internetowych <img src="images/sky-shop.png" alt=""></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class='popup' id='popup'>
+        <div class='popup__content'>
+            <span class='close'>&times;</span>
+            <div class='popup__body'>
+                <h1>Twój produkt został dodany do koszyka</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src='js/basket.js'></script>
+    <script src='js/popup.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/search.js'></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src='js/owl.setup.js'></script>
+    <script src='js/slider.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .popup__content {
+        margin: 20% auto;
+        width: 30%;
+
+
+        span {
+            float: right;
+            font-size: 50px;
+            cursor: pointer;
+            padding: 20px;
+        }
+
+        .popup__body {
+            text-align: center;
+            padding: 50px 50px;
+            background: #fff;
+            height: 200px;
+        }
+    }
+
+}

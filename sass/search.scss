@@ -1,0 +1,28 @@
+.list-group {
+    list-style: none;
+    background-color: white;
+
+}
+
+
+
+.img-search {
+    margin-right: 55px;
+}
+
+
+.list-group-item {
+    color: red;
+    padding: 20px;
+}
+
+#result {
+    position: absolute;
+    width: 100%;
+    max-width: 340px;
+    cursor: pointer;
+    overflow-y: auto;
+    max-height: 400px;
+    box-sizing: border-box;
+    z-index: 1001;
+}

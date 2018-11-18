@@ -1,0 +1,17 @@
+[{
+
+        "name": "Samsung S9",
+        "pic": "../images/product-s9.png",
+        "price": "2000,00 zł"
+    },
+    {
+        "name": "Vacuum S599",
+        "pic": "../images/product-vacuum.png",
+        "price": "200,00 zł"
+    },
+    {
+        "name": "tv",
+        "pic": "../images/product-tv.png",
+        "price": "1780,00 zł"
+    }
+]
